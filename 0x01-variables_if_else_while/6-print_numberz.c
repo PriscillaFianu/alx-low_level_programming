@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: Prints all numbers from 0 to 9
+ * Description: Prints all nmbers 0 to 9 using putchar
  *
  * Return: Always 0 (Success)
  */
@@ -14,8 +14,8 @@ int main(void)
 
 	for (n = 0; n <= 9; n++)
 	{
-	printf("%d", n);
+	putchar(n + 48);
 	}
-	printf("\n");
+	putchar('\n');
 	return (0);
 }
